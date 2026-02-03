@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "glint-jsconfig-repro/*": ["app/*"]
+    },
+    "skipLibCheck": true,
+    "types": ["ember-source/types", "@embroider/core/virtual", "@glint/ember-tsc/types"]
+  },
+  "exclude": ["dist", "node_modules"],
+  "include": ["app/**/*", "tests/**/*"],
+}
